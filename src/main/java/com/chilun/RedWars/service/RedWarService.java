@@ -21,9 +21,6 @@ public class RedWarService {
     @Autowired
     StringRedisTemplate stringRedisTemplate;
 
-    @Autowired
-    RedisTemplate redisTemplate;
-
     private final String ResultRedWarPrefix = "ResultRedWar:";
     private final String SendRedWarPrefix = "SendRedWar:";
 
